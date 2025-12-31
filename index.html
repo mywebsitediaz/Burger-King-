@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Bliss | Premium Eats</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">BURGER<span>BLISS</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact" class="nav-btn">Order Now</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="zoom-out" data-aos-duration="1500">
+            <span class="hero-tag">Limited Edition</span>
+            <h1>THE ULTIMATE <span class="highlight">STEAKHOUSE</span> EXPERIENCE</h1>
+            <p>Premium Wagyu beef, caramelized onions, and aged cheddar.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn primary-btn">View Menu</a>
+                <a href="#contact" class="btn secondary-btn">Reserve Table</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Signature Flavors</h2>
+            <div class="menu-grid">
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-img">
+                        <i class="fas fa-burger"></i>
+                        <span class="badge">Best Seller</span>
+                    </div>
+                    <h3>Classic Royal</h3>
+                    <p>Double patty with melted Swiss cheese and truffle oil.</p>
+                    <div class="card-footer">
+                        <span class="price">$12.99</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-img">
+                        <i class="fas fa-fire-alt"></i>
+                        <span class="badge spicy">Extra Spicy</span>
+                    </div>
+                    <h3>Blazing Inferno</h3>
+                    <p>Ghost pepper sauce, jalapeños, and smoked bacon.</p>
+                    <div class="card-footer">
+                        <span class="price">$14.50</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-img">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Earth Burger</h3>
+                    <p>Beyond meat patty with avocado and vegan lime aioli.</p>
+                    <div class="card-footer">
+                        <span class="price">$13.00</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="feedback-section">
+        <h2 class="section-title" data-aos="fade-up">What Foodies Say</h2>
+        <div class="feedback-container">
+            <div class="feedback-box" data-aos="fade-right">
+                <div class="stars">★★★★★</div>
+                <p>"The most flavorful burger I've ever had. Fast service too!"</p>
+                <h4>- Michael Ross</h4>
+            </div>
+            <div class="feedback-box" data-aos="fade-left">
+                <div class="stars">★★★★★</div>
+                <p>"Perfect balance of spice and texture. A must-try!"</p>
+                <h4>- Sarah Jenkins</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="order-section">
+        <div class="form-card" data-aos="flip-up">
+            <h2>Order Your Feast</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <div class="input-row">
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+                <select>
+                    <option>Select Your Flavor</option>
+                    <option>Classic Royal</option>
+                    <option>Blazing Inferno</option>
+                    <option>Earth Burger</option>
+                </select>
+                <textarea placeholder="Any allergies or special requests?"></textarea>
+                <button type="submit" class="btn primary-btn">Send Order</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 Burger Bliss. Crafted for Food Lovers.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800, once: false });</script>
+</body>
+</html>
